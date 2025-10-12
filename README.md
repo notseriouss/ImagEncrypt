@@ -58,18 +58,23 @@ cmake .. && make
 ## Usage
 Usage is actually very simple:
 1. Basically all you need to do is to pass the input image which you want to encrypt by using
+
 `--input-image=/path/to/image.png  or  -i path/to/image.png`
 
 2. And provide the output path for encrypted image where you want to save it  using
+
 `--output-image=/path/to/image.png   or  -o path/to/image.png `
 
 3.  Then password, the program has 3 options for working with passwords:
 * You can pass your password just by providing it to the program using 
+
 `--password=your password`
 
 * You can generate random password with the length of all image pixels using
+
 `--password-generate `
 > program saves your password as password.txt in the same dir where it was executed
 
 * You can import your password from .txt file using
+
 `--password-from=/path/to/password.txt`
