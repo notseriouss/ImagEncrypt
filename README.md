@@ -13,7 +13,7 @@
 ***
 ## What is this
 Program for encrypting and decrypting images. It uses Vernam's cipher for encrypting all pixels
-> NOTE
+> NOTE: 
 > This program encrypts PIXEL DATA only, not the complete image file. The main idea was to see the encrypted image, therefore the original file structure, metadata, and compression may be altered during the process. While decrypted images will display identical visual content, file size and hashes may differ from the original.
 
 
