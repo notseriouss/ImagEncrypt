@@ -70,7 +70,7 @@ Usage is actually very simple:
 3.  Then password, the program has 3 options for working with passwords:
 * You can pass your password just by providing it to the program using 
 ```sh
---password=your password
+--password=your_password
 ```
 
 * You can generate random password with the length of all image pixels using
