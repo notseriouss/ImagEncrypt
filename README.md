@@ -21,11 +21,11 @@ Program for encrypting and decrypting images. It uses Vernam's cipher for encryp
 The program uses [Vernam's cipher](https://en.wikipedia.org/w/index.php?title=Gilbert_Vernam&section=3#The_Vernam_cipher) to encrypt image pixels through XOR operations with a password key. This provides theoretical unbreakability when used with a truly random key of sufficient length.
 
 ## Filetypes
-| Encryption | Decryption | :fa-check:/:fa-times: | 
+| Encryption | Decryption | ✔️/❌ | 
 | :--------------: | :--------------:| :-----------: |
-| png/bmp -> png/bmp | png/bmp -> png/bmp | :fa-check: |
-| jpeg -> png/bmp | png/bmp -> png/bmp | :fa-check: |
-| jpeg -> png/bmp/jpeg | png/bmp/jpeg -> jpeg | :fa-times: |
+| png/bmp -> png/bmp | png/bmp -> png/bmp | ✔️ |
+| jpeg -> png/bmp | png/bmp -> png/bmp | ✔️ |
+| jpeg -> png/bmp/jpeg | png/bmp/jpeg -> jpeg | ❌ |
 
 >    JPEG format uses lossy compression which can distort encrypted/decrypted images during saving.
 
