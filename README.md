@@ -62,7 +62,7 @@ Usage is actually very simple:
 --input-image=/path/to/image.png  or  -i path/to/image.png
 ```
 
-3. And provide the output path for encrypted image where you want to save it  using
+2. And provide the output path for encrypted image where you want to save it  using
 ```sh
 --output-image=/path/to/image.png   or  -o path/to/image.png
 ```
